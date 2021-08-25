@@ -1,0 +1,266 @@
+.header-flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.header-flex-container-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    align-items: center;
+}
+.header-flex-container-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+
+header {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #222;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #222;
+    cursor: pointer;
+}
+
+
+#Apps {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#Apps:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+
+#Account {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#About {
+    padding: 5px;
+    margin: 0 5px;
+    min-height: 46;
+}
+
+#Store {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#Gmail {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#Images {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+content a {
+    text-decoration: none;
+    color: #222;
+}
+
+.content-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4fr 44px 7fr;
+    height: 80vh;
+}
+
+.grid-first-row {
+    grid-area: 1/2/2/4;
+    justify-self: center;
+    align-self: flex-end;
+
+}
+
+.logo {
+    align-self: center;
+    justify-self: center;
+}
+
+.search-bar-container {
+    display: grid;
+    grid-area: 2/2/3/4;
+    grid-template-columns: 45px minmax(40px, 500px) 45px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.search-icon {
+    display: grid;
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.mic-icon {
+    display: grid;
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    height: 34px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.grid-third-row-google-search {
+    display: grid;
+    grid-area: 3/2/4/3;
+    justify-self: end;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+.grid-third-row-google-search:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.grid-third-row-im-feeling-lucky {
+    display: grid;
+    grid-area: 3/3/4/5;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    justify-self: start;
+    align-items: center;
+
+}
+
+.grid-third-row-im-feeling-lucky:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.footer-flex-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: inherit;
+    flex-wrap: wrap;
+}
+
+.footer-flex-container-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.footer-flex-container-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 46px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #222;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #222;
+    cursor: pointer;
+}
+
+.Canada {
+    padding: 15px;
+}
+
+.Advertising {
+    padding: 15px;
+}
+
+.Business {
+    padding: 15px;
+}
+
+.HowSearchWorks {
+    padding: 15px;
+}
+
+.Privacy {
+    padding: 15px;
+}
+
+.Terms {
+    padding: 15px;
+}
+
+.Settings {
+    padding: 15px;
+}
